@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DS18B20", "DS18B20\DS18B20.vcxproj", "{C123D148-3362-4CE9-B7E5-FD4AE534B323}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "i2cLCD", "i2cLCD\i2cLCD.vcxproj", "{B2512DC6-CF42-48F8-927B-875D91A25AF6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "i2cScanner", "i2cScanner\i2cScanner.vcxproj", "{1B1ABD3A-8F70-46D1-BA3F-0812A45C763D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dhcpAddress", "dhcpAddress\dhcpAddress.vcxproj", "{64A1EE06-84AA-4D0C-98C3-74668E2BAADF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "udpSend", "udpSend\udpSend.vcxproj", "{6DAD5AFD-5945-49DE-B3FD-77475CD70998}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C123D148-3362-4CE9-B7E5-FD4AE534B323}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C123D148-3362-4CE9-B7E5-FD4AE534B323}.Debug|Win32.Build.0 = Debug|Win32
+		{C123D148-3362-4CE9-B7E5-FD4AE534B323}.Release|Win32.ActiveCfg = Release|Win32
+		{C123D148-3362-4CE9-B7E5-FD4AE534B323}.Release|Win32.Build.0 = Release|Win32
+		{B2512DC6-CF42-48F8-927B-875D91A25AF6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B2512DC6-CF42-48F8-927B-875D91A25AF6}.Debug|Win32.Build.0 = Debug|Win32
+		{B2512DC6-CF42-48F8-927B-875D91A25AF6}.Release|Win32.ActiveCfg = Release|Win32
+		{B2512DC6-CF42-48F8-927B-875D91A25AF6}.Release|Win32.Build.0 = Release|Win32
+		{1B1ABD3A-8F70-46D1-BA3F-0812A45C763D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1B1ABD3A-8F70-46D1-BA3F-0812A45C763D}.Debug|Win32.Build.0 = Debug|Win32
+		{1B1ABD3A-8F70-46D1-BA3F-0812A45C763D}.Release|Win32.ActiveCfg = Release|Win32
+		{1B1ABD3A-8F70-46D1-BA3F-0812A45C763D}.Release|Win32.Build.0 = Release|Win32
+		{64A1EE06-84AA-4D0C-98C3-74668E2BAADF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{64A1EE06-84AA-4D0C-98C3-74668E2BAADF}.Debug|Win32.Build.0 = Debug|Win32
+		{64A1EE06-84AA-4D0C-98C3-74668E2BAADF}.Release|Win32.ActiveCfg = Release|Win32
+		{64A1EE06-84AA-4D0C-98C3-74668E2BAADF}.Release|Win32.Build.0 = Release|Win32
+		{6DAD5AFD-5945-49DE-B3FD-77475CD70998}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6DAD5AFD-5945-49DE-B3FD-77475CD70998}.Debug|Win32.Build.0 = Debug|Win32
+		{6DAD5AFD-5945-49DE-B3FD-77475CD70998}.Release|Win32.ActiveCfg = Release|Win32
+		{6DAD5AFD-5945-49DE-B3FD-77475CD70998}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
