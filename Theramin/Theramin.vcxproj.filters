@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="rgbLED.ino" />
+    <None Include="Theramin.ino" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Visual Micro\.rgbLED.vsarduino.h">
+    <ClInclude Include="Visual Micro\.Theramin.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

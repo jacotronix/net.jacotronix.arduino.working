@@ -109,12 +109,12 @@ void loop()
   dtostrf(temp2,5,2,floatBuff);
   msgToSend.concat(floatBuff);
 
-  Serial.print(msgBuffer);
-  Serial.print('\n');
   msgToSend.toCharArray(msgBuffer, 20);
   Udp.write(msgBuffer);
     Udp.endPacket();
 	delay(1000);
+  Serial.print(msgBuffer);
+  Serial.print('\n');
   msgToSend = "BS18B20:";
 
   delay(5000); //wait 10 sec
