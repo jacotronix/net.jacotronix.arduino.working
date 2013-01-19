@@ -1,5 +1,5 @@
 hardware/*
-libraries/*
+#libraries/*
 */Visual Micro/*
 
 ## Ignore Visual Studio temporary files, build results, and
