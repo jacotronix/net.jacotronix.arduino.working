@@ -21,21 +21,6 @@
     <ClInclude Include="Visual Micro\.i2cLCD.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\Arduino.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\binary.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\Client.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\HardwareSerial.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\IPAddress.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\new.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -107,21 +92,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\CDC.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\HardwareSerial.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\HID.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\IPAddress.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\new.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
