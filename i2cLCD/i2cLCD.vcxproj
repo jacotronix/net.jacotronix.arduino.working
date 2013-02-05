@@ -71,7 +71,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\new.h" />
     <ClInclude Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\Platform.h" />
     <ClInclude Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\Print.h" />
     <ClInclude Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\Printable.h" />
@@ -97,7 +96,6 @@
     <ClInclude Include="Visual Micro\.i2cLCD.vsarduino.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\new.cpp" />
     <ClCompile Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\Print.cpp" />
     <ClCompile Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\Stream.cpp" />
     <ClCompile Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\Tone.cpp" />

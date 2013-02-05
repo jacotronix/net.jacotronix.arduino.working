@@ -21,9 +21,6 @@
     <ClInclude Include="Visual Micro\.i2cLCD.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\new.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\Platform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -92,9 +89,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\new.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\Print.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
