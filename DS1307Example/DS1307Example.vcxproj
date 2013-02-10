@@ -43,7 +43,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>C:\arduino-1.0.3\hardware\arduino\cores\arduino;C:\arduino-1.0.3\hardware\arduino\variants\eightanaloginputs;C:\arduino-1.0.3\libraries\Wire;C:\arduino-1.0.3\libraries\Wire\utility;C:\Documents and Settings\jamie\My Documents\Arduino\libraries\RTClib;C:\Documents and Settings\jamie\My Documents\Arduino\libraries\RTClib\utility;c:\arduino-1.0.3\hardware\tools\avr\avr\include\;c:\arduino-1.0.3\hardware\tools\avr\avr\include\avr\;c:\arduino-1.0.3\hardware\tools\avr\avr\;c:\arduino-1.0.3\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\arduino-1.0.1\hardware\arduino\cores\arduino;C:\arduino-1.0.1\hardware\arduino\variants\eightanaloginputs;C:\arduino-1.0.1\libraries\Wire;C:\arduino-1.0.1\libraries\Wire\utility;S:\Arduino\libraries\RTClib;S:\Arduino\libraries\RTClib\utility;c:\arduino-1.0.1\hardware\tools\avr\avr\include\;c:\arduino-1.0.1\hardware\tools\avr\avr\include\avr\;c:\arduino-1.0.1\hardware\tools\avr\avr\;c:\arduino-1.0.1\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>C:\Documents and Settings\jamie\My Documents\Arduino\DS1307Example\Visual Micro\.DS1307Example.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
       <PreprocessorDefinitions>ARDUINO=103;__AVR_ATmega328P__;F_CPU=16000000L;__AVR__;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>

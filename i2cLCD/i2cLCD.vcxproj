@@ -43,7 +43,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>C:\arduino-1.0.3\hardware\arduino\cores\arduino;C:\arduino-1.0.3\hardware\arduino\variants\eightanaloginputs;C:\arduino-1.0.3\libraries\Wire;C:\arduino-1.0.3\libraries\Wire\utility;c:\arduino-1.0.3\hardware\tools\avr\avr\include\;c:\arduino-1.0.3\hardware\tools\avr\avr\include\avr\;c:\arduino-1.0.3\hardware\tools\avr\avr\;c:\arduino-1.0.3\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\arduino-1.0.1\hardware\arduino\cores\arduino;C:\arduino-1.0.1\hardware\arduino\variants\eightanaloginputs;C:\arduino-1.0.1\libraries\Wire;C:\arduino-1.0.1\libraries\Wire\utility;C:\arduino-1.0.1\libraries\LiquidCrystal;C:\arduino-1.0.1\libraries\LiquidCrystal\utility;c:\arduino-1.0.1\hardware\tools\avr\avr\include\;c:\arduino-1.0.1\hardware\tools\avr\avr\include\avr\;c:\arduino-1.0.1\hardware\tools\avr\avr\;c:\arduino-1.0.1\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>C:\Documents and Settings\jamie\My Documents\Arduino\i2cLCD\Visual Micro\.i2cLCD.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
       <PreprocessorDefinitions>ARDUINO=103;__AVR_ATmega328P__;F_CPU=16000000L;__AVR__;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -71,6 +71,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\new.h" />
     <ClInclude Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\Platform.h" />
     <ClInclude Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\Print.h" />
     <ClInclude Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\Printable.h" />
@@ -96,6 +97,7 @@
     <ClInclude Include="Visual Micro\.i2cLCD.vsarduino.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\new.cpp" />
     <ClCompile Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\Print.cpp" />
     <ClCompile Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\Stream.cpp" />
     <ClCompile Include="C:\arduino-1.0.1\hardware\arduino\cores\arduino\Tone.cpp" />
