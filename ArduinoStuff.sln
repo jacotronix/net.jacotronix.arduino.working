@@ -1,10 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Blink", "S:\Arduino\Blink\Blink.vcxproj", "{6D3A8FDB-3BBA-457B-A7C4-4F8B71DADEDA}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dhcpAddress", "S:\Arduino\dhcpAddress\dhcpAddress.vcxproj", "{64A1EE06-84AA-4D0C-98C3-74668E2BAADF}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DS18B20", "DS18B20\DS18B20.vcxproj", "{C123D148-3362-4CE9-B7E5-FD4AE534B323}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DS1307Example", "DS1307Example\DS1307Example.vcxproj", "{D61F7741-FF39-44A1-A88B-5C0E0250541B}"
@@ -76,20 +72,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Motors", "Motors", "{1E6A13
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StepperOneStepAtATime", "StepperOneStepAtATime\StepperOneStepAtATime.vcxproj", "{CED62D61-E696-4314-9CBC-B3F81138E15D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dhcpAddress", "dhcpAddress\dhcpAddress.vcxproj", "{64A1EE06-84AA-4D0C-98C3-74668E2BAADF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Blink", "Blink\Blink.vcxproj", "{6D3A8FDB-3BBA-457B-A7C4-4F8B71DADEDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6D3A8FDB-3BBA-457B-A7C4-4F8B71DADEDA}.Debug|Win32.ActiveCfg = Debug|Win32
-		{6D3A8FDB-3BBA-457B-A7C4-4F8B71DADEDA}.Debug|Win32.Build.0 = Debug|Win32
-		{6D3A8FDB-3BBA-457B-A7C4-4F8B71DADEDA}.Release|Win32.ActiveCfg = Release|Win32
-		{6D3A8FDB-3BBA-457B-A7C4-4F8B71DADEDA}.Release|Win32.Build.0 = Release|Win32
-		{64A1EE06-84AA-4D0C-98C3-74668E2BAADF}.Debug|Win32.ActiveCfg = Debug|Win32
-		{64A1EE06-84AA-4D0C-98C3-74668E2BAADF}.Debug|Win32.Build.0 = Debug|Win32
-		{64A1EE06-84AA-4D0C-98C3-74668E2BAADF}.Release|Win32.ActiveCfg = Release|Win32
-		{64A1EE06-84AA-4D0C-98C3-74668E2BAADF}.Release|Win32.Build.0 = Release|Win32
 		{C123D148-3362-4CE9-B7E5-FD4AE534B323}.Debug|Win32.ActiveCfg = Debug|Win32
 		{C123D148-3362-4CE9-B7E5-FD4AE534B323}.Debug|Win32.Build.0 = Debug|Win32
 		{C123D148-3362-4CE9-B7E5-FD4AE534B323}.Release|Win32.ActiveCfg = Release|Win32
@@ -186,6 +178,14 @@ Global
 		{CED62D61-E696-4314-9CBC-B3F81138E15D}.Debug|Win32.Build.0 = Debug|Win32
 		{CED62D61-E696-4314-9CBC-B3F81138E15D}.Release|Win32.ActiveCfg = Release|Win32
 		{CED62D61-E696-4314-9CBC-B3F81138E15D}.Release|Win32.Build.0 = Release|Win32
+		{64A1EE06-84AA-4D0C-98C3-74668E2BAADF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{64A1EE06-84AA-4D0C-98C3-74668E2BAADF}.Debug|Win32.Build.0 = Debug|Win32
+		{64A1EE06-84AA-4D0C-98C3-74668E2BAADF}.Release|Win32.ActiveCfg = Release|Win32
+		{64A1EE06-84AA-4D0C-98C3-74668E2BAADF}.Release|Win32.Build.0 = Release|Win32
+		{6D3A8FDB-3BBA-457B-A7C4-4F8B71DADEDA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6D3A8FDB-3BBA-457B-A7C4-4F8B71DADEDA}.Debug|Win32.Build.0 = Debug|Win32
+		{6D3A8FDB-3BBA-457B-A7C4-4F8B71DADEDA}.Release|Win32.ActiveCfg = Release|Win32
+		{6D3A8FDB-3BBA-457B-A7C4-4F8B71DADEDA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
