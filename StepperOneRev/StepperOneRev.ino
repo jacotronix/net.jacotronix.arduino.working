@@ -1,3 +1,8 @@
+//  This would need some tinkering with if exactly one rotatin is needed
+//  The steeper motor apparently has 64 steps/rev but is geared down by 68 time
+//  setting it to 32 revs of 64 seems to be close but not exactly right.
+//  Will sort if I ever need to use it in anger.
+
 
 /* 
  Stepper Motor Control - one revolution
@@ -17,7 +22,8 @@
 
 #include <Stepper.h>
 
-const int stepsPerRevolution = 200;  // change this to fit the number of steps per revolution
+const int stepsPerRevolution = 64;  // change this to fit the number of steps per revolution
+//const int stepsPerRevolution = 200;  // change this to fit the number of steps per revolution
                                      // for your motor
 
 // initialize the stepper library on pins 8 through 11:
@@ -35,7 +41,7 @@ void loop() {
   // step one revolution  in one direction:
   Serial.println("clockwise");
 //**************************    
-  for (int x=1;x<12;x++)                         //<<<<<<<<<<<<  we want to iterate to get a full revolution
+  for (int x=1;x<33;x++)                         //<<<<<<<<<<<<  we want to iterate to get a full revolution
   {
   myStepper.step(stepsPerRevolution);
   Serial.println(x);                                 //<<<<<<<<<<<< This is just for debugging
@@ -45,7 +51,7 @@ void loop() {
   // step one revolution in the other direction:
   Serial.println("counterclockwise");
 //**************************    
-  for (int x =1;x<12;x++)
+  for (int x =1;x<32;x++)
   {
   myStepper.step(-stepsPerRevolution);
   Serial.println(x);  
