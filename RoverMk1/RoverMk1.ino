@@ -1,22 +1,18 @@
 #define motor1pole1 4
 #define motor1pole2 5
-
 #define motor1speed 3
 
 #define motor2pole1 12
 #define motor2pole2 10
-
 #define motor2speed 11
 
-#define M1_MIN_SPEED 100
-#define M2_MIN_SPEED 100
-#define M1_MAX_SPEED 255
-#define M2_MAX_SPEED 255
+#define MOTOR_MIN_SPEED 100
+#define MOTOR_MAX_SPEED 155
 
 #define motordelay 30
 #define debugmotorwait 3000
 
-int mspeed = 100;
+int mspeed = MOTOR_MIN_SPEED;
 
 void setup()
 {
@@ -47,7 +43,7 @@ void loop()
 	motorstop(2);
 	delay(debugmotorwait);
 	mspeed+=50;
-	if (mspeed > 250) mspeed = 100;
+	if (mspeed > MOTOR_MAX_SPEED) mspeed = MOTOR_MIN_SPEED;
 }
 
 
@@ -95,10 +91,10 @@ void motorstop(int motorNum)
 
 void motorspeed(int m1speed, int m2speed)
 {
-	if (m1speed < M1_MIN_SPEED) m1speed = M1_MIN_SPEED;
-	if (m2speed < M2_MIN_SPEED) m2speed = M2_MIN_SPEED;
-	if (m1speed > M1_MAX_SPEED) m1speed = M1_MAX_SPEED;
-	if (m2speed > M2_MAX_SPEED) m2speed = M2_MAX_SPEED;
+	if (m1speed < MOTOR_MIN_SPEED) m1speed = MOTOR_MIN_SPEED;
+	if (m2speed < MOTOR_MIN_SPEED) m2speed = MOTOR_MIN_SPEED;
+	if (m1speed > MOTOR_MAX_SPEED) m1speed = MOTOR_MAX_SPEED;
+	if (m2speed > MOTOR_MAX_SPEED) m2speed = MOTOR_MAX_SPEED;
 	analogWrite(motor1speed, m1speed);
 	analogWrite(motor2speed, m2speed);
 }
